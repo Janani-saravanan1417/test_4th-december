@@ -1,0 +1,47 @@
+1.
+package org.emps;
+
+public class employee {  
+public void salary(){
+System.out.println("employee salary is...");
+}  
+
+ package org.emps1;
+ 
+public class attendance extends employee{  
+public void present(){
+System.out.println("employee is present...");
+}  
+}  
+  
+public static void main(String args[]){  
+attendance obj = new attendance ();  
+obj.salary();  
+obj.present();  
+}
+} 
+
+2.
+
+
+class methodoverloading {  
+     
+    static int A(int a, int b) {  
+        return a ;  
+        return b ;
+    }  
+    
+    static int A(int a, int b, string c) {  
+        return a ;  
+        return b ;
+        return c ;
+    }  
+ 
+  
+   public static void main(String[] args) {  
+         
+       System.out.println(methodoverloading.A(11, 12)); 
+       
+        System.out.println(methodoverloading.A(11, 16, "test"));  
+    }  
+}   
